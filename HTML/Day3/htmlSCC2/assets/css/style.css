@@ -1,0 +1,27 @@
+h1{
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;  
+}
+.table{
+    /* solid | double | dased */
+    /* cizgi kalinligi cizgi turu , renk */
+    border: 3px solid gray;
+    border-collapse: collapse;  /* Cizgileri daraltir ve birlestirir */
+    width: 50%; /* Yuzdelik dilim sayfaya gore hesaplanir*/
+    margin-right: auto;
+    margin-left: auto;
+
+} 
+th,td{
+    border: 3px solid gray;
+}
+th{
+    background-color: greenyellow;
+}
+tr:hover{
+    background-color: grey;
+}
+td:nth-child(odd){
+    background-color: rgb(234, 17, 17);
+}
