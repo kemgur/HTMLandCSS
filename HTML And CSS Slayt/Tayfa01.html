@@ -1,0 +1,153 @@
+
+<!-- An HTML element is defined by a start tag, some content, and an end tag:
+Bir HTML öğesi, bir başlangıç ​​etiketi, bir miktar içerik ve bir bitiş etiketi ile tanımlanır: -->
+
+
+
+
+<!-- The <!DOCTYPE html> declaration(bildirimi) defines(tanimlar) 
+	that this document is an HTML5 document -->
+<!-- <! DOCTYPE html> bildirimi, bu belgenin 
+	bir HTML5 belgesi olduğunu tanımlar -->
+<!DOCTYPE html>
+<!-- The <html> element is the root(kök) element of an HTML page.
+     <html> öğesi, bir HTML sayfasının kök öğesidir. -->
+<html lang="en" dir="ltr">
+<head>
+	<!-- The <head> element contains(icerir) meta(degisim) information about the HTML page
+		<head> öğesi, HTML sayfasıyla ilgili degisim bilgileri içerir -->
+	<link rel="stylesheet" type="text/css" href="/Users/kemalgurler/Desktop/LectureNotes/HTML/HTML And CSS Slayt/style.css">
+	<meta charset="utf-8"> 
+<!-- 	Web sayfasinin turkce karacter icerebilegini ifade eder.	 -->
+
+	<title> Tayfa Team</title>
+	<!-- The <title> element specifies(spesıfayz)(belirtir) a title for the HTML page (which(bu) is shown in the browser's title bar or in the page's tab).
+	<title> öğesi, HTML sayfası için bir başlık belirtir (bu, tarayıcının başlık çubuğunda veya sayfanın sekmesinde gösterilir) -->
+	<style>
+		/*<h1>Tayfa Team Perfect</h1> a <style> icerinde stil kodlarini ekleyececegiz. Her stil kodundan sonra mutlaka (;) kullanmaliyiz.*/
+		body{
+			background-color: hsla(0, 100%, 70%, 0.3);
+		}
+		h1{ /* h1 selector  kodu*/
+			color: red;/*stil kodu*/
+			font-size: 20px;/*stil kodu*/
+			background-color: yellow;/*stil kodu*/
+		}
+		h2{ /* h1 selector  kodu*/
+			color: blue;/*stil kodu*/
+			font-size: 16px;/*stil kodu*/
+			background-color: yellow;/*stil kodu*/
+		}
+
+
+		
+	</style>	
+</head>
+<body>
+	<!-- The <body> element defines(tanimlar) the document's body, and is a container for all the visible(gorunur) contents(icerik), such as headings(baslik;ar gibi), paragraphs, images, hyperlinks, tables, lists, etc.
+	<body> öğesi, belgenin gövdesini tanımlar ve başlıklar, paragraflar, görüntüler, köprüler, tablolar, listeler vb. Gibi tüm görünür içerikler için bir kaptır. -->
+
+		<h1>Tayfa Team Perfect</h1>
+	<!-- The <h1> element defines(tanimlar) a large heading.
+	     The <h1> element defines a large heading -->
+	     <p>The element defines(tanimlar) a paragraph
+	        (öğesi bir paragrafı tanımlar)</p>
+	    <h2>Tayfa Team Perfect</h2>
+	    <h3 style="color: red" class="baslik" id="isim" title="mehmet">Tayfa Team Perfect</h3>
+
+	    <p>Bugun gunlerden pazar</p>
+	    <p>Ailem ile piknige gitmeyi planliyorum</p>
+	    <!-- Paragraf icerisinde kulladigimizda cumleler birbirinde ayrilir. -->
+	    Bugun gunlerden Cuma <br>
+	  <!--   <br> elementi cumleler arasinda satir atlatmamiza yarar
+	    ve  End Tag'a ihtiyaci yoktur. end Tag kullanirsak iki tane <br> 
+	    Kullanmaik istemis gibi algilanir. -->
+	    Ailem ile yemege gitmeyi planliyorum
+
+	    <hr> 
+	    <!-- <hr> elemnti hem satir eklemek icin hemde bolumleri birbirinden ayirmak icin cizgi olarak kullandigimiz bir elementtir ve End tag'i yoktur. -->
+	   Bugun gunlerden pazar
+	   <hr>
+	   Ailem ile piknige gitmeyi planliyorum
+
+	   <h1>Delikanli Sadi</h1>
+
+
+	   <p>Ben Delikanli Sadi , bu sayfa benim kisisel sayfam</p>
+
+
+	   <p>Bana ulasmak icin lutfen <a href="file:///Users/kemalgurler/Desktop/LectureNotes/HTML/Slayt/iletisim.html">tiklayin</a></p>
+	   <hr>
+	   <h2>Egitim</h2>
+
+	   <ul>
+	   <li>Cumhuriyet ilkokulu</li>
+	   <li>Merkez Anadolu Lisesi</li>
+	   <li>Odtu</li>
+	   </ul>
+
+	   <h2>Bildigim diller</h2>
+	   <ol>
+	   	<li>Ingilizce</li>
+	   	<li>Fransizca</li>
+	   	<li>Ispanyolca</li>
+	   </ol>
+
+	   <hr>
+
+	   <H4>Image Lesson</H4>
+	   <img src="/Users/kemalgurler/Desktop/LectureNotes/HTML/Slayt/img01.jpeg" alt="picture" width="200" height="200">
+	  <!--  "alt=" attribute'u eger resim yuklenmezse kullaniciya resim oldugunu bildirmek icin kullanilir -->
+	    <img src="/Users/kemalgurler/Desktop/LectureNotes/HTML/Slayt/img01.jpeg" alt="picture" width="20%" height="20%">
+
+	  <img src="/Users/kemalgurler/Desktop/LectureNotes/HTML/Slayt/img01.jpeg" alt="picture" style="width:200px;height:200px;">
+	  <!-- Resimlere boyut verirken style="" attribute inide kullanabiliriz. -->
+
+
+
+	  <hr>
+	  <h5>Sosyal Medya Bolumu</h5>
+	  <ul>
+	  	<li> <a target="_blank" href="https://www.facebook.com/">Facebook</a> </li>
+	  	<li> <a href="https://twitter.com"></a> Twitter</li>
+	  	<li><a href="https://www.google.com/">Google</a></li>
+	  </ul>
+	   <!--  Link ekleme de <a> elementi ve "href" attribute kullanilir
+	  	target="_blank" attribute linkin yyeni bir sayfadda acilmasini saglar. -->
+
+	  	<h2>Programlama Dilleri Tablo ile </h2>
+
+	  	<table border="1">
+	  	<!-- Tablo olustururken <table> tagi kullanilir -->
+	  	<!-- border="1" ile tabloya cerceve olusturulur -->
+	  		<thead>
+	  		<!--  Tablonun iki bolumu vardir. <thead> ve <tbody>
+	  		 <thead> bolumunun data lari <th> tagi kullanilir.	 -->
+	  		<th>Sira</th><th>Isim</th><th>Seviye</th>	
+	  		</thead>
+
+	  		<tbody>
+	  			<tr>
+	  		<!-- <tbody> tagi ile tablonun body datalari olusturulur. -->
+	  		 <!-- <tbody> bolumunun satirlari<tr> tagi kullanilir.	 -->
+	  		 <!-- <tr>satirlarinin datalari icin  <td> tagi kullanilir.	 -->
+	  		 <td>1.</td><td>JAVA</td><td>UZMAN</td> <br>
+	  			</tr>
+	  			<tr>
+	  		<td>2.</td><td>JS</td><td>STAJER</td>
+	  			</tr>
+
+	  		</tbody>	
+
+
+	  	</table>
+	 
+
+
+
+
+ 
+
+
+</body>
+</html>

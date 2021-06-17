@@ -1,0 +1,59 @@
+<div>
+    <h1>Web Developer</h1>
+<span> Selector cok onemli</span>
+</div>
+h1{
+    color:yellow;
+}
+h1:hover{ /*h1:hover{} selector mouse ile yazinin uzerine geldihimizde yazi rengi beyaz olur.*/
+    color:white;
+}
+
+<h1 class="baslik sari guzel">Hello World!!!</h1>
+
+<h2 id="admin" class:"sari guzel">Hello everyone</h2>
+/*Note 1: class attribute CSS te yogun bir sekilde kullanilirken
+ id attribute Jacascript te kullanilir.*/
+
+ /*Note 2: Css te class ismi kullanilirken basina nokta konur. 
+ 		 id attribute kullanilirken basina # isareti konur.*/	 
+.baslik.sari.guzel{
+    color: yellow;
+    background-color: red;
+}
+#admin{
+    color: brown;
+}
+
+CSS Borders : The CSS border properties allow you to specify the style, width, and color of an element's border.
+CSS kenarlık özellikleri, bir öğenin kenarlığının stilini, genişliğini ve rengini belirlemenize olanak tanır.
+
+
+CSS Margins:The CSS margin properties are used to create space around elements, outside of any defined borders.
+(CSS kenar boşluğu özellikleri, tanımlanmış sınırların dışında, öğelerin etrafında boşluk oluşturmak için kullanılır.)
+
+With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).CSS ile kenar boşlukları üzerinde tam kontrole sahip olursunuz. Bir öğenin her bir tarafı için (üst, sağ, alt ve sol) kenar boşluğunu ayarlama özellikleri vardır.
+
+
+CSS Padding:Padding is used to create space around an element's content, inside of any defined borders.
+(CSS Dolgusu: Dolgu, bir öğenin içeriğinin etrafında, tanımlanmış herhangi bir sınırın içinde boşluk oluşturmak için kullanılır.)
+
+The CSS float property specifies how an element should float.
+(CSS float özelliği, bir öğenin nasıl yüzmesi gerektiğini belirtir.)
+The CSS clear property specifies what elements can float beside the cleared element and on which side.
+(CSS temizleme özelliği, hangi öğelerin temizlenen öğenin yanında ve hangi tarafta yüzebileceğini belirtir.)
+Float: Bir ogenin sayfanin ne tarafina yerlesmesi gerektigini ifade ediyoruz.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

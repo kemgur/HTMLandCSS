@@ -1,0 +1,147 @@
+
+
+<!-- HTML web sayfalarina web elemanlari ve icerik eklemeye yarar.
+<!-- SCC web sayfasini ve icerikleri suslemeye yarar.
+<!-- JavaScript(JS) web sayfasinin kullanici ile iletisim kurmasini saglar.(intreduction)
+<!-- HTML: Hyper Text Markup Language--> 
+<!-- SCC: Cascading Style Sheet-->
+<!-- yorum yaz --> seklinde yarumlar eklenip sonra kapatilabilir.
+<!-- Sublime'i ac ==> File==> New File
+<!-- File ==> Save==> 
+<!-- Html02.html ==> Desktop ==> Save==>
+<!-- HTML web sayfasina bilgi girmek icin kullanilir.
+<!-- CSS, HTML ile girilen bilgileri suslemeye yarar.
+<!-- JavaScript kullanici ile dialog kurmaya yarar.
+<!-- HTML: Hyper Text Markup Language (HTML) demektir.
+<!-- CSS: Cascading(keskeyding) Style(Stayl) Sheet(šiit) (CSS) demektir.
+<!-- Burda yazilan tum codlar hangi browser'i kullanrsak ona hitap eder.
+<!-- <!DOCTYPE html> Dokument type HTML demektir.
+<!-- HTML web sayfalarina web elemanlari ve icerik eklemeye yarar.
+<!-- SCC web sayfasini ve icerikleri suslemeye yarar.
+<!-- JavaScript(JS) web sayfasinin kullanici ile iletisim kurmasini saglar.
+<!-- HTML: Hyper Text Markup Language--> 
+<!-- SCC: Cascading Style Sheet-->
+
+<!-- <HTML> bu tarz ifadeye 'Tag' denir. '/' yoksa 'Beginning Tag' -->
+
+<!-- <HTML> bu tarz ifadeye 'Tag' denir. '/' varsa 'Ending Tag' -->
+
+<!--HEAD kisminda 'Title', 'style', 'Mate Data' vb. kisimlar olur-->
+<!--Web sayfasindaki tum gorunen bilgiler BODY kisimina yazilir-->
+<!-- Tag'in icinde CSS kullanirsaniz ona 'Inline CSS' denir. Bu iyi bir uygulama degil cunku cok tekrar gerekir-->
+
+<!--CSS kodlarini HEAD kisminda style tag'lerinin arasina yazarsaniz buna INTERNAL CSS denir-->
+
+<> ==> TAG olarak adlandirilir. Giris taglari buyuk yazilir. HTML, Case Sensitive degildir. 
+<HTML> ==> Beginning Tag,Openning tag olarak adlandirilir.
+<HTML> ==> yazmak, bu kodun basladigi anlamina gelir.
+
+</HTML>==> yazmak, bu kodun bittigi anlamina gelir.
+</HTML>==> Ending Tag, Closing olarak adlandirilir.
+
+<!DOCTYPE HTML> ==> Browser'a gonderecegimiz codlarin html codu oldugunu ifade ediyoruz. HTML' in onune versiyonunu yazmamamizin sebebi son versiyonun kullanmasini saglamak icindir.
+
+<HEAD> ==> Bu bolumde web sayfasi ile ilgili bolumler bulunur. 
+bu bolume META DATA'da denir. Meta Data'da web sayfasi hangi dilde yapildi, ne zaman yapildi, kim yapti gibi bilgiler olur. Bu bolumde Title bulunur. Title con onemlidir. Arama motorlarında sitenin 
+Kolay bulunmasını saglar.((SEO)==>> Search Engine Optimization)
+
+
+  <BODY> ==> Web sayfasinda gordugunuz her sey buradadir.
+
+  <HEAD> ==> Baslik Heading demektir.6 farkli heading vardir.
+  H1, H2, H3, H4, H5, H6 buyukten kucuge dogru siralanir ve koyu harflerle yazilir.
+
+<1-- Tag in içerisinde SCC kullanirsaniz ona "Inline CSS" denir.-->
+<1-- Bu iyi bir uygulama degildir.Cunku çok tekrar gerekir bizde tekrar sevmiyoruz.-->
+<!-- CSS kodlarını HEAD kısmında style tag'larin arasına yazarsanız buna INTERNAL CSS denir.
+
+
+  <P> ==> Paragraf bolumudur.</P>  Ending Tag'i vardir. 
+  <BR> ==> Bir alt satira inmek icin kullanilir. Ending Tag'i yoktur.
+  <HR> ==> Horizontal, yatay cizgidir. 2 cizgi isterseniz 2 tane yazabilirsiniz.
+  <B>Java</B> ==> Kelimeyi bold yapar(Koyu renkli yazar)
+  <I>Java</I> ==> Kelimeyi italik yapar
+  <U>HTML</U> ==> Kelimenin altini cizer.
+  <U><I><B>Java</B></I></U> ==> Bold, italik ve altini cizdik.
+  <DEL>zor</DEL> ==> zor kelimesinin ustune cizer ve zor degil anlami verir.
+  <a href="https://www.youtube.com/"
+		  target="_blank"> ==> Yeni bir sayfada linki acar.
+ 
+ <img src=""> ==> img, resim yuklemek icin kullanilir. 
+ src ise source(kaynak) demektir.
+
+ 	<img src="https://resize.hswstatic.com/w_1024/gif/water-life-crop.jpg"
+		  	style="width: 400px;
+		  		   height: 800px"> ==> Resmin enini ve boyunu ayarlayabiliriz.
+		  		     alt: "Su resmi";==> Alt attribute, resim yuklenmedigi zaman gorunur olur ve kullaniciya resim hakkinda bilgi verir.		  
+  <H1 style= "color:red;">Kemal</H1>> 
+  Burada style : attribute'tur ce CSS'den gelir.
+  H1: tagName dir.
+
+  HTML'de hata yaptiginizda altini cizmez ama renk duzeni bozulur. Hata yaptigimizi buradan anlayabiliriz.
+
+Kettle + water Systemoutprintln(tea);
+
+<!-- target="_blank" linki yeni bir sayfada actirir.
+<a href="https://www.google.com/" target="_blank">Google</a>
+
+<TH> Table Heading
+<TR> Table Row
+<TD> Table Data
+<script> etiketi java script kodlsrini calistirabilecegimiz bir etikettir.
+<h1> arama motorları h1'lere de bakar. O yüzden h1 e de en onemli bilgiler girilir.
+<strong> ve <b> => Yazıyı  kalın yapar
+<mark> => yazıyı fosforlu kalem gibi çizebilir.
+<del> => yazının ustunu çizer. Özellikle alisveris sitelerinde indirimsiz ürünlerin fiyatı gösterilirken kullanır.
+<ins> => yazının altını çizer
+<em> ve <i> => yazıyı etik yazdırır
+<hr> yatay çizgi çizer
+<font> => yazi tipini ve rengini değiştirir.HTML 5 ile birlikte kullanılmamaktadır.
+<blockquote> => Yaziya girinti verir. Genellikle alıntı yaparken kullanılır.
+<code> =>Web sayfalarında bilgisayara kodları gösterilmekte istendiğinde kullanılır. 
+Yazının fontu monospace olarak gösterilerek diler yazılardan belirgin sekilde ayrılır,
+<sub> Alt simge olarak kullanılır
+<sup> Üst simge olarak kullanilir
+
+<abbr> Kısaltmalar icin, fare ile uzerine gelindiğinde açıklama yazısı çıkar 
+<p>Bu dersimizde <abbr title="Hyber Text Markup Language"> HTML</abbr> konusunu gorecegiz </p>
+
+HTML'de Bazı Yararlı Özel Karakterler
+
+Çıktı	Açıklama. Karakter Adı	Karakter Numarası
+ 	Boşluk	       &nbsp;	&#160;
+<	Küçüktür 	&lt;	&#60;
+>	Büyüktür 	&gt;	&#62;
+&	Ampersan 	&amp;	&#38
+"	Çift tırnak	&quot;	&#34;
+'	Tek tırnak	&apos;	&#39;
+¢	Cent işareti	&cent;	&#162;
+£	Pound işareti	&pound;	&#163;
+¥	Yen işareti	&yen;	&#165;
+€	Euro işareti	&euro;	&#8364;
+©	Telif hakkı 	&copy;	&#169;
+®	Tescilli marka	&reg;	&#174;
+₺	Türk lirası 	-	&#8378;
+
+İşaret	Karakter	Örnek Çıktı
+̀	a&#768;	   à
+́	a&#769;    á
+̂	a&#770;	   â
+̃	a&#771;    ã
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
