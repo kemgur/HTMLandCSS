@@ -159,13 +159,16 @@ UI da label'a tikladigimizda input bolumunun katif oldugunu gorururuz-->
 <input class="input" type="password" name="" id="pass1"><br><br>
 
 <select> Kullanıcıya listeden secim yaptırır.
-Her vir secenek icin <option> tagi kullanilir.
+Her bir secenek icin <option> tagi kullanilir.
 
 Name:"" attribute'u verinin server'a giderken hangi isimle gideceğini belirler. 
 
 <button> =><input> tagi yerine button tagi da kullanilabilir.
 
-
+<div> => division dan gelir ve bolme anlamina gelir.
+         Bir blok etiketidir ve bir kutu gibi dusunulebilir.
+         Satiri komple kaplamak ister. HTML elemanlarini tasiyan 
+         bir kontainer gibi dusunulebilir.
 
 
 
