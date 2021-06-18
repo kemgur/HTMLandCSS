@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap");
+* {
+  text-align: center;
+  margin: 0; /*Bastan tum margin'leri 0"la*/
+  box-sizing: border-box; /*Padding, border ve Margin uzunliklarini dikkate almaktir*/
+}
+body {
+  background: linear-gradient(#e66465, #9198e5);
+  font-family: "Nunito", sans-serif;
+}
+h1{
+    margin-top: 50px;
+}
+.input {
+  margin-bottom: 20px;
+  width: 200px;
+  height: 25px;
+}
+.label {
+    display: block;
+  margin-right: 10px;
+}
+.btn {
+  color: rgb(118, 247, 14);
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  border: 3px solid green;
+  border-radius: 20px;
+  background-color: rgb(9, 9, 9);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(231, 217, 90);
+
+}
+.fas{
+    color: rgb(223, 52, 52);
+}
+.far{
+    color:rgb(223, 52, 52); ;
+}
+textarea{
+    width: 200px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

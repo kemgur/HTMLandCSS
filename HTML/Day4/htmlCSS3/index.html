@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" 
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Formlar</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <h1>FORMLAR</h1>
+<form action="kaydet.php"></form> <!--Bu formun server da nereye katdedilecegi ile ilgili bir bolum-->
+<label class="label" for="">Adiniz:</label>
+<input class="input" type="text" placeholder="isim giriniz"><br><br>
+
+<input class="input" type="text" placeholder="soyadiniz">
+<label class="label" for="">Soyadiniz</label><br><br>
+
+<label class="label" for="">Adres</label><br>
+<input class="input" type="text" name="" id=""><br><br>
+
+<!-- Burada input'un id'sini label'in for kismina yazariz
+Boylece label ile input'u birbirine baglamis oluruz.
+UI da label'a tikladigimizda input bolumunun katif oldugunu gorururuz-->
+<label class="label" for="pass1">Sifreniz:</label>
+<input class="input" type="password" name="" id="pass1"><br><br>
+
+<label class="label" for="age">Yasiniz</label>
+<input class="input" 
+       type="number" 
+       name="" id="age" 
+       min="0" max="100"><br>
+
+<label class="label" for="mail">Email:</label>
+<input class="input" type="email" id="mail" ><br><br>
+
+<label class="label" for="adres">Adres</label>
+<textarea name="text-alani" id="adres" rows="10"></textarea><br>
+
+<button class="btn" type="submit"><i class="far fa-save"></i>Gonder</button>
+<button class="btn" type="reset"><i class="fas fa-trash-alt"></i>Temizle</button>
+ <!-- Name:"" attribute'u verinin server'a giderken hangi isimle gideceğini belirler.  -->
+ <!--<i class="far fa-save"></i>
+  Font-awesome bir cok secenegi var
+far: Font-Awesome-Regular, 
+fas: Font-Awesome-Solid, (kati, koyu)
+fal: Font-Awesome-Light, 
+fad: Font-Awesome-Duotone(Cift Ton)
+fab: Font-Awesome-Brands(Marka)-->
+</body>
+</html>

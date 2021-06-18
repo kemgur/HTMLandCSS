@@ -163,6 +163,7 @@ Her vir secenek icin <option> tagi kullanilir.
 
 Name:"" attribute'u verinin server'a giderken hangi isimle gideceğini belirler. 
 
+<button> =><input> tagi yerine button tagi da kullanilabilir.
 
 
 
