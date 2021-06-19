@@ -169,9 +169,25 @@ Name:"" attribute'u verinin server'a giderken hangi isimle gideceğini belirler.
          Bir blok etiketidir ve bir kutu gibi dusunulebilir.
          Satiri komple kaplamak ister. HTML elemanlarini tasiyan 
          bir kontainer gibi dusunulebilir.
+Hizli div yazma:  div.kutu>ol>li*5  yazarak hizlica asagidaki gibi giv olusturabiliriz 
+    <div>
+        <div class="kutu">
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+    </div>      
 
-
-
+float: left; css kodu alt alta olan divleri yanyana dizer.
+float: left; kullanildiginda bir cakisma olursa asagidaki clearfix kodu kullanilir.
+<div class="clearfix"</div>//html codu=>> <div> calismalarini onler.
+.clearfix{//css codu
+    clear: both; =>> <div> calismalarini onler.
+}
 
 
 
