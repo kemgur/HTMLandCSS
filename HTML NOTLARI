@@ -189,6 +189,18 @@ float: left; kullanildiginda bir cakisma olursa asagidaki clearfix kodu kullanil
     clear: both; =>> <div> calismalarini onler.
 }
 
+ Dikey(vertical) hizalamalarda display:flex; yontemi kullanilir.
+ .container{
+     display: flex;
+     align-items: center;
+ }
+ Dikey(vertical) hizalamalarda diger yol:
+ .vcontainer{
+     min-height:10px;
+     display: table-cell;
+     vertical=align:middle;
+ }
+
 
 
 
