@@ -1,0 +1,43 @@
+Notes of HTML
+
+1- colspan="3" 3 colonu birlestirir.
+   rowspan="3" 3 satiri birlestirir.
+
+2- target="_blank" => yeni bir sayfadan acar.   
+
+3-  type="radio" button name'ler ayni oldugunda ikisinden birini secmesine musade eder.
+      <p>
+        Cinsiyetiniz : <br />
+        Erkek: <input type="radio" name="cinsiyet" id="" /> Kadin:
+        <input type="radio" name="cinsiyet" id="" />
+      </p>
+
+4- Yukaridaki herhangi bir tag'a id eklenir ve en alttan bu id'ye link verilir.Ayni sekilde paragraflarada id verilerek paragraf basina don, linki verilebilir.
+ <a id="sayfabasi">
+<a href="#sayfabasi"> Basa Don</a>
+
+5-   <!--? <b> ve <strong> taglari kelimeleri bold yapar.  
+          <i> ve <em> tagrari egik yazdirir.
+          <u> tagi yazinin altini cizer  
+          <sup> tagi ust yazi seklinde yazdirir.  
+          <sub> tagi alt yazi seklinde yazdirir.    
+          <del> tagi yazinin ustunu cizer    
+          <mark>  tagi yaziyi keceli kalemle cizmis gibi gosterir    
+          <hr> etiketi yazinin altini cizer    
+          <ul> sirasiz liste olusturur
+          <li> her bir satir tagi 
+          <ol> sirali liste olusturur    
+          ol>li*6 => <ol>'nin icerisinde 6 tane <li> tagi olusturur.    
+6- <div> tagi inline olmadigi icin gelen yazi alt 
+          satirdan devam eder. Fakat div alt satirda bosluk birakmaz.
+   <span> tagi inline bir tag oldugu icin gelen yazi ayni satirda devam eder.
+
+7-Iframe: Bir web sayfasinda baska bir sayfa web sayfasini gostermemizi saglar.   
+
+8- CSS Selectors
+(p) --> Tum p etiketleri
+(div p) --> div icerisindeki tum p leri
+(div,p) --> Tum div ve tim p etiketleri
+(p + div) --> p etiketinden sonra gelen div etiketi
+
+
