@@ -1,0 +1,46 @@
+/* Pseudo Elementleri*/
+
+p::first-line{
+    font-weight: bold;
+    color: brown;
+
+    /* Bosluklarin arasini acar. */
+    word-spacing: 2px;
+
+     /* Harflerin arasini acar. */
+     letter-spacing: 2px;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+/* Pseudo Class */
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+ul li:first-child{
+    background-color: darkolivegreen;
+}
+
+ul li:last-child{
+    background-color: rgb(157, 183, 236);
+}
+
+a:visited{
+    color: rgb(240, 46, 62);
+}
+
+a:hover{
+    color: white;
+    background: lightblue;
+}
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}

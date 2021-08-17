@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Web sayfasi icerisindeki Turkce karakterlerin goruntulenmesini  destekler-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Programlama</title>
+    <!-- Tarayicida web sayfasinin isminin goruntulenmesini saglar -->
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+      }
+      body {
+        font-size: 13px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #919191;
+        background-color: #232323;
+      }
+      header,
+      footer {
+        width: 960px;
+        margin: 0;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-size: 22px;
+        font-weight: normal;
+        font-style: italic;
+        line-height: normal;
+      }
+      nav ul {
+        list-style: none;
+      }
+      form,
+      fieldset,
+      legend {
+        border: none;
+      }
+      input textarea,
+      select {
+        font-size: 12px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      a {
+        color: #ffffff;
+      }
+      .cerceve1 {
+        width: 100%;
+        text-align: left;
+        color: #c0bab6;
+        background-color: #333333;
+      }
+      header {
+        padding: 20px;
+        width: 960px;
+      }
+      header #logogroup {
+        float: left;
+        margin: 0 0 20px 0;
+      }
+      header #logogroup h1 {
+        font-size: 36px;
+      }
+      header #logogroup h2 {
+        font-size: 13px;
+      }
+      header form {
+        width: 290px;
+        float: right;
+        margin-top: 20px;
+        padding: 0;
+      }
+      header form input {
+        float: left;
+        width: 200px;
+        margin: 0;
+        color: #c0bab6;
+        background-color: #232323;
+        border: 1px solid #666666;
+      }
+      header form #ara {
+        float: right;
+        width: 70px;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #ff9900;
+      }
+      header nav {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+        color: #c0bab6;
+        background-color: #ff9900;
+        clear: both;
+      }
+      header nav ul {
+        padding: 0 20px;
+      }
+      header nav li {
+        display: inline;
+        margin-right: 25px;
+        text-transform: uppercase;
+      }
+      header nav li a {
+        color: #333333;
+      }
+      header nav li a:hover {
+        color: #ffffff;
+      }
+      .cerceve2{
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cerceve1">
+      <header>
+        <div id="logogroup">
+          <h1><a href="#"></a>Site Logosu</h1>
+          <h2>Site Aciklamasi</h2>
+        </div>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Arama</legend>
+            <input type="text" value="Site ici arama" />
+            <input type="submit" id="ara" value="Ara" />
+          </fieldset>
+        </form>
+
+        <div>
+          <footer class="footer">
+            <section>
+              <nav>
+                <ul>
+                  <li><a href="index.html">Anasayfa</a></li>
+                  <li><a href="hakkimda.html">Hakkimizda</a></li>
+                  <li><a href="javascript.html">JavaScript</a></li>
+                  <li><a href="php.html">PHP</a></li>
+                  <li><a href="iletisim.html">iletisim</a></li>
+                </ul>
+              </nav>
+            </section>
+          </footer>
+        </div>
+      </header>
+    </div>
+
+    <div class="cerceve2">
+      <div id="container" class="clear">
+        <section id="slider" class="clear">
+          <figure>
+            <img src="./img/630x300.jpg" alt="" />
+            <figcaption>
+              <h2>Programa Dilleri</h2>
+              <p>
+                Python cok populer ve kolay ogrenilebilen bir programa dilidir
+              </p>
+              <p>
+                Google Flutter mobil uygulamalar kodlayabileceginiz bir
+                platformdur
+              </p>
+              <footer><a href="#">Devamini oku &raquo;</a></footer>
+            </figcaption>
+          </figure>
+        </section>
+
+        <div id="intro">
+          <article class="aciklama">
+            <h2>Baslik</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              minus repellendus magnam amet fugiat, quas eveniet cum eligendi
+              velit, voluptates, ipsam consectetur tenetur quae quibusdam. Ad
+              animi tenetur voluptatum sunt.
+            </p>
+          </article>
+          <article class="aciklama ek">
+            <figure >
+              <ul class="clear">
+                <li>
+                  <a href="a">
+                    <img src="./img/130x130.jpg" width="130px"  height="130px" alt="">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="a">
+                    <img src="./img/130x130.jpg" width="130px"  height="130px" alt="">
+                  </a>
+                </li>
+
+                <li class="last">
+                  <a href="a">
+                    <img src="./img/130x130.jpg" width="130px"  height="130px" alt="">
+                  </a>
+                </li>
+
+              </ul>
+              <figcaption><a href="#">Resim Galerisi &raquo;</a></figcaption>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
