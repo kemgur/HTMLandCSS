@@ -151,7 +151,119 @@ Z-endeksi değeri ne kadar yüksek olursa, bir öğe kullanıcıya o kadar yakı
     <!--Footer-->
     </body>
 
- 24-   
+25- list-style-type: none; li deki noktalari siler.
+     ul{
+    list-style-type: none;
+     }
+
+ 26- transition: color 0.4s; yazinin uzerine geldiginde degisim 0.4s hizinda olsun, demektir.    
+
+ 27-.pointer {cursor: pointer;}
+ https://www.w3schools.com/cssref/tryit.asp?filename=trycss_cursor
+ The cursor Property
+Mouse over the words to change the mouse cursor.
+ İmleç Özellik
+Fare imlecini değiştirmek için fareyi sözcüklerin üzerine getirin.
+
+ 28- focus ozelligini kapatmak icin: (text areaya tikladigimizda cikan cerceve)
+ /* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+
+ 29- Bootstrap bir css ve java kutuphanesidir.
+ 
+ 30- <small class="text-muted">  soluk ve vurgulu bir yazi yazmamizi saglar.
+      <h1>Bootstrap Heading
+        <small class="text-muted"> Sub Heading</small>
+    </h1>
+
+  31-<h1 class="display-1">Display</h1> Resimlerin uzerine yaziyazmamizi saglar.  
+  
+  32-<p class="lead">kdjfhkdf</p> paragrafi diger paragraflara gore daha belirgin hale getirir.
+
+  33- <p class="text-lowercase">LOWERCASE</p> yaziyi kucuk harflerle yazdirir
+ 
+  34- <p class="text-capitalize">capitalized text</p> Kelimelerin basharflerini buyuk harfle yazar.
+
+  35- <div class ="btn-group> Div icerisindeki butonlari yanyana bitisik yapar.
+      <div class ="btn-group-vertical> Div icerisindeki butonlari yukaridan asagi bitisik yapar.
+
+ 36- class: "rounded" bootstrap'ta border-reduce yapar.
+
+ 37-Bootstrap ile listeden dogdugun sehri secme codlari:
+      <div class="form-group mt-4">
+      <label for="city" class="form-control"></label>
+      <select name="city" id="city"></select>
+       <option value="34">Istanbul</option>
+       <option value="6">Ankara</option>
+       <option value="35">Istanbul</option>
+       <option value="26">Eskisehir</option>
+    </div>
+
+ 38- Kullacidan gmail alma.
+       <input type="text" class="form-control">
+    <div class="input-group-append">
+       <span class="input-group-text">@gmail.com</span> 
+    </div>  
+
+ 39- Kullacidan instagram adresini alma.
+      <div class="input-group-prepend">
+      <span class="input-group-text" id:"ig">http://instagram.com/</span>
+       <input type="text" class="form-control">
+    </div>  
+    <input type="text" class="form-control">    
+    
+ 40- class="jumbotron";
+     .jumbotron{
+         background-image : url(image/03.jpg);
+     }
+     kullanarak background'a renk yerine resim de ekleyebiliriz.
+
+  41- breadcrumb:
+     A breadcrumb navigation provide links back to each previous 
+     page the user navigated through, and shows the user's current 
+     location in a website.(Bir kırıntı gezintisi, kullanıcının gezindiği
+      önceki her sayfaya geri bağlantılar sağlar ve kullanıcının bir 
+      web sitesindeki mevcut konumunu gösterir.)
+      Step 1) Add HTML:
+  <ul class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Pictures</a></li>
+  <li><a href="#">Summer 15</a></li>
+  <li>Italy</li>
+  </ul>
+      Step 2) Add CSS:
+    /* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+  43-
+
+
 
 
 
