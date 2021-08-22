@@ -1,0 +1,39 @@
+1-ES6 javascript eklentisi eklendi.
+2-Live server install edildi.
+
+3- Degisken turleri:
+ A: Primitive Types:
+   1) String
+    let fName="Ali";
+    console.log(typeof firstname);// String
+
+  2) Number:
+       let age=30;
+    console.log(typeof age);// Number
+
+  3) Boolean:
+   let kredi =true  
+   console.log(typeof kredi);// Boolean
+
+  4) Undefined:
+        let phone;
+        console.log(typeof phone);// Undefined
+
+  B:Reference Types: Objects    
+    1) Array: 
+       let list={"Ali", "Can", "Veli"};
+        console.log(typeof list);// Objects
+
+    2) Object Literals:
+       let address:{
+           city: "Istanbul",
+           country: "Turkey"
+       }
+       console.log(typeof addresst);// Objects 
+
+    3) function:
+     var hesapla = function(){
+         return 0;
+     }   
+    console.log(typeof hesapla);// function
+    
